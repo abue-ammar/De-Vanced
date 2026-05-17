@@ -1,11 +1,9 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/RookieEnough/De-Vanced/refs/heads/main/logo.png" width="400">
+  <img src="https://raw.githubusercontent.com/RookieEnough/De-Vanced/refs/heads/main/logo.png" width="190">
 </p>
 
 <div align="center">
-
-# De-Vanced
-
+  
 ### *"ReVanced calls forks unofficial while calling itself official—that's not open source, that's hypocrisy. Time to De-ReVanced your phone."*
 
 **ReVanced patches, migrated to Morphe. Community-driven. GPL-compliant. No gatekeeping.**
