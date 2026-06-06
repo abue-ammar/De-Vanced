@@ -33,8 +33,4 @@ internal object LoadInboxAdsFingerprint : Fingerprint(
         "ads_load_begin",
         "inbox_ads_fetch_start",
     ),
-    custom = { method, _ ->
-        method.definingClass == "Lcom/facebook/messaging/business/inboxads/plugins/inboxads/itemsupplier/" +
-            "InboxAdsItemSupplierImplementation;"
-    },
 )
