@@ -10,7 +10,7 @@ import app.morphe.patches.shared.misc.extension.sharedExtensionPatch
 
 internal object MessengerApplicationOnCreateFingerprint : Fingerprint(
     custom = { method, classDef ->
-        method.name == "onCreate" && classDef.type.contains("MessengerApplication")
+        method.name == "onCreate" && classDef.type.substringAfterLast('/').startsWith("MessengerApplication")
     },
 )
 
